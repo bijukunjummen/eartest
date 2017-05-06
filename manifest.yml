@@ -1,0 +1,9 @@
+---
+applications:
+  - name: eartest
+    path: eartest-ear/target/eartest-ear.ear
+    memory: 1G
+
+# buildpack: https://github.com/cloudfoundry-community/tomee-buildpack
+#buildpack: tomee_offline
+buildpack: https://github.com/bijukunjummen/tomee-buildpack#GH-16
