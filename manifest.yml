@@ -7,3 +7,5 @@ applications:
 # buildpack: https://github.com/cloudfoundry-community/tomee-buildpack
 #buildpack: tomee_offline
 buildpack: https://github.com/bijukunjummen/tomee-buildpack#GH-16
+#env:
+#  JBP_CONFIG_TOMEE: "{tomee: {external_configuration_enabled: true}, resource_configuration: { repository_root: \"http://tomee-resources.cfapps.io/tomee-resource-configuration\" }}"
